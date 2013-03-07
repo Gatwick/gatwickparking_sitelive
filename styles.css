@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body {background:#fff;}
+
+#container {background:#fff; margin:0 auto; width:960px;}
+#header {background:url(images/clouds.jpg) 45% bottom no-repeat; height:98px; width:960px; float:left;}
+
+
+.pink-box {background:url(images/pink-box-top.jpg) 0 0 no-repeat #fcf6f6; width:475px; position:relative; float:left; border-right:#FFF solid 8px;}
+.pink-box-long-heading {background:url(images/pink-box-long-heading-top.jpg) 0 0 no-repeat #fcf6f6!important;}
+.pink-box-wide {background:url(images/pink-box-wide-top.jpg) 0 0 no-repeat #fcf6f6; padding-bottom:15px;; width:678px; position:relative; float:left; border-right:#FFF solid 8px; border-bottom:#FFF solid 10px;}
+
+.pink-box-bottom {background:url(images/pink-box-wide-bottom.jpg) 0 0 no-repeat; z-index:9999; float:left; height:15px; width:678px; clear:both;} /* this is to fix ie6 using jquery problems */
+
+#quote-box {background:url(images/quote-box.jpg) 0 0 no-repeat; width:475px; height:285px; float:left;}
+.quote-box-narrow {background:url(images/quote-box-narrow.jpg) 0 0 no-repeat; width:272px; height:470px; float:left; border-bottom:#FFF solid 8px; }
+/*.quote-box-narrow input	{width:135px!important;};
+.quote-box-narrow select {width:200px!important;};*/
+
+.light-blue-box {background:url(images/light-blue-box.jpg) 0 0 no-repeat; width:475px; height:220px; float:left; border-top:#FFF solid 25px;}
+
+.pale-blue-box-wider {background:url(images/pale-blue-box-wider.jpg) 0 0 no-repeat #EEF7FC;padding-bottom:9px; width:272px; float:right; border-bottom:#FFF solid 8px; position:relative; clear:right;}
+
+.pale-blue-box-tall {background:url(images/pale-blue-box-tall.jpg) 0 0 no-repeat; width:243px; height:301px; float:left; border-right:#FFF solid 8px;}
+.pale-blue-box-short {background:url(images/pale-blue-box-short.jpg) 0 0 no-repeat; width:224px; height:147px; float:left;}
+
+#green-box {background:url(images/green-box.jpg) 0 0 no-repeat; margin-top:6px; height:272px; width:960px; float:left;}
+
+#dividing-heading {background:url(images/clouds5.jpg) 72% bottom no-repeat; height:57px; width:960px; float:left;}
+#top-heading {height:60px; width:678px; float:left; margin-top:10px;}
+.heading-area {background:url(images/clouds4.jpg) 85% bottom no-repeat; height:80px; width:960px; float:left;}
+.heading-area-narrow {background:#FFF; height:80px; width:688px; float:left;}
+.bottom-dividing-area {height:20px; width:960px; float:left; display:block;}
+
+#site-map-top {height:54px; width:960px; float:left;}
+#site-map-repeat {background:url(images/site-map-repeat.jpg) 0 0 repeat-y; width:960px; float:left;}
+#site-map-bottom {background:url(images/site-map-bottom.jpg) 0 0 no-repeat; height:10px; width:960px; float:left;}
+
+#copyright-bar {height:20px; width:960px; float:left; border-bottom:20px solid #FFF;}
+
+.show-hide {width:630px; padding-left:18px;}
+
+.clear-both {clear:both;}
+
+.hidden {
+	width:0 !important;
+	font-size:0 !important;
+	height:0 !important;
+	line-height:0 !important;
+	position:absolute !important;
+	left:-999% !important;
+	overflow:hidden !important;
+	}
+
+
+/* ---------------- Quick Quote ---------------- */
+
+#quote-box p, #quote-box-narrow p {color:#FFF; font-size:13px; padding:8px 0px 0px 20px;}
+
+#qquote_base_holder {width:455px; margin:0 0 0 10px; float:left; }
+#quickQuoteButtons { float:left; width:180px; }
+
+select {margin:0 5px 0 0; padding:2px 0; float:left;}
+
+.form-button {line-height:20px;}
+
+#check-prices {width:165px; margin:15px 0 0 0; height:31px; display:block;}
+
+.padlock {background:url(images/padlock.jpg) 0 7px no-repeat; width:170px; margin-top:8px; font-size:11px!important; float:left;}
+.padlock_narrow{background:url(images/padlock.jpg) 0 0px no-repeat; width:100px; margin-top:0px; font-size:11px!important; float:left; padding-right:0px;} 
+
+.form_14em {width:240px;}
+.form_3_3em {width:50px;}
+.form_6_6em {width:115px;}
+.form_4_4em {width:65px;}
+
+.form_14em_narrow {width:200px;}
+
+/* ---------------- Quick Quote Narrow ---------------- */
+
+#quote-box-narrow #qquote_base_holder {width:248px; margin:0 0 0 22px;}
+
+
+#quote-box-narrow select {margin:0 6px 0 0; padding:2px 0; float:left;}
+
+#quote-box-narrow .form-button {line-height:20px;}
+
+#quote-box-narrow .padlock {background:url(images/padlock.jpg) 0 7px no-repeat; width:120px; margin-top:8px; font-size:11px!important; float:left;}
+
+#quote-box-narrow .form_14em {width:200px;}
+#quote-box-narrow .form_3_3em {width:48px;}
+#quote-box-narrow .form_6_6em {width:80px;}
+#quote-box-narrow .form_4_4em {width:59px;}
+
+
+/* ---------------- Text Styles ---------------- */
+
+a {color:#004f93;}
+a:hover {text-decoration:underline;}
+
+h1 {
+	font-size:35px;
+	color:#009DE1;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+h1.smallheading {color:#004f93; font-size:18px; padding:14px 18px;}
+
+
+h2 {font-size:30px; color:#009DE1;}
+
+h3 {color:#004f93; font-size:18px; padding:14px 18px;}
+h3.lower {color:#004f93; font-size:18px; padding:14px 18px 0 18px;}
+h3 a {text-decoration:none;}
+
+h4 {color:#004f93; font-size:14px; padding:16px 18px 0 18px;}
+
+p {
+	color:#555;
+	font-size:0.9em;
+	padding:12px 25px 4px 18px;
+	line-height:1.4em;
+}
+p.bigger {font-size:13px; font-weight:bold; line-height:17px;}
+
+.show-hide p {display:none; padding-left:0; margin-left:19px;}
+.show-hide h4 {background:url(images/arrows-light-blue.jpg) 0 21px no-repeat; padding-left:20px; cursor:pointer;}
+
+.pale-blue-box-tall h3, .pale-blue-box-short h3, .pale-blue-box-wider h3 {padding:14px 18px 20px 18px;}
+.pale-blue-box-tall p, .pale-blue-box-short p, .pale-blue-box-wider p {padding:2px 20px 6px 18px;}
+#copyright-bar p {padding:5px 0 0 18px;}
+
+.light-blue-box ul {color:#009edf; font-size:17px; font-weight:normal; list-style-position:outside; list-style-type:none; line-height:26px; margin:28px 0 0 24px;}
+.light-blue-box ul li {background:url(images/arrows-blue.jpg) 0 50% no-repeat; padding-left:22px;}
+
+.pink-box ul, .pink-box-wide ul {color:#555; font-size:13px; font-weight:bold; list-style-position:outside; list-style-type:none; line-height:15px; margin:12px 0 0 30px;}
+.pink-box ul li, .pink-box-wide ul li {background:url(images/arrows-light-blue.jpg) 0 4px no-repeat; padding-left:24px; margin-top:5px;}
+
+#site-map-top {background:url(images/site-map-top.jpg) 0 0 no-repeat; height:54px; width:960px;}
+#site-map-repeat ul {float:left; width:220px; color:#FFF; font-size:12px; line-height:19px; list-style-position:outside; list-style-type:none; padding:5px 0 5px 20px;}
+#site-map-repeat ul a {color:#FFF; text-decoration:none;}
+
+.pink-box-wide table {color:#555; font-size:12px; margin:12px 25px 4px 18px; line-height:16px;}
+
+p.small {padding:0 65px 0 50px; font-size:11px; line-height:11px; text-align:right; font-weight:bold;}
+
+
+/* ---------------- Images ---------------- */
+
+#logo {float:left; padding:22px 0 0 10px;}
+#web-address {float: right; padding:30px 10px 0 0;}
+
+#p-sign {float:left; padding:0 0 0 20px;}
+#home-page-heading {float:left; padding:40px 0 0 35px;}
+#button-book-online {float:left; padding:20px 0 0 30px;}
+.middle-heading {padding:12px 0 0 18px;}
+.middle-heading-home {padding:8px 0 0 18px;}
+.lower-heading {padding:32px 0 0 18px;}
+
+#quick-links {border-bottom:8px #FFF solid; float:right;}
+
+.pale-blue-box-button {padding:0 0 0 33px; width:148px; height:20px; display:block; color:#004f93; text-decoration:none; font-size:12px; border-left:#EEF7FC 18px solid; background:url(images/button-light-blue.jpg) 0 0 no-repeat; line-height:20px; margin:4px 0;}
+
+
+/* ---------------- Navigation ---------------- */
+
+
+
+
+#nav-bar {
+	height:44px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url(images/nav-bar.jpg);
+	float: left;
+	width: 960px;
+}
+#nav-bar ul {
+	margin:0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 5px;
+}
+
+#nav-bar ul li {
+	margin:0;
+	padding:0;
+	display: inline;
+}
+
+#nav-bar ul li a {
+	display:block;
+	float:left;
+	text-align: center;
+	padding-top: 14px;
+	padding-right: 19px;
+	padding-bottom: 14px;
+	padding-left: 19px;
+	color: #036477;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.95em;
+	text-transform:uppercase;
+}
+#nav-bar ul li a:hover { color: #fff; }
+	
+#home #nav-bar ul li #nav-get {
+}
+#maps #nav-bar ul li #nav-maps {
+	color: #FFF;
+}
+#faqs #nav-bar ul li #nav-help {
+	color: #FFF;
+}
+#safety #nav-bar ul li #nav-safety {
+	color: #FFF;
+}
+#contact #nav-bar ul li #nav-contact {
+	color: #FFF;
+}
